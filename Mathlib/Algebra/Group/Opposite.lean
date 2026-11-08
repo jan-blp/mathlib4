@@ -10,7 +10,7 @@ public import Mathlib.Algebra.Group.InjSurj
 public import Mathlib.Algebra.Group.Torsion
 public import Mathlib.Algebra.Opposites
 
-import Mathlib.Tactic.Conv
+meta import Mathlib.Tactic.Conv
 
 /-!
 # Group structures on the multiplicative and additive opposites

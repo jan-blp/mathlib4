@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Order.Disjoint
 public import Mathlib.Order.RelIso.Basic
-public import Mathlib.Tactic.Monotonicity.Attr
+public meta import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Order homomorphisms

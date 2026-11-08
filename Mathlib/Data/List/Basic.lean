@@ -10,8 +10,8 @@ public import Mathlib.Basic.Unique
 public import Mathlib.Data.List.Defs
 public import Mathlib.Data.List.Monad
 public import Mathlib.Data.Subtype
-public import Mathlib.Tactic.Attr.Core
-public import Mathlib.Tactic.Common
+public meta import Mathlib.Tactic.Attr.Core
+public meta import Mathlib.Tactic.Common
 
 /-!
 # Basic properties of lists

@@ -9,7 +9,7 @@ module
 public import Mathlib.Algebra.Order.IsBotOne
 public import Mathlib.Algebra.Order.Monoid.Unbundled.Defs
 public import Mathlib.Order.MinMax
-public import Mathlib.Tactic.GRewrite
+public meta import Mathlib.Tactic.GRewrite
 
 /-!
 # Ordered monoids

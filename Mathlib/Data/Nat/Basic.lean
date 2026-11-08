@@ -9,7 +9,7 @@ public import Mathlib.Basic.Logic.Basic
 public import Mathlib.Basic.Nontrivial.Defs
 public import Mathlib.Data.Nat.Init
 public import Mathlib.Order.Defs.LinearOrder
-public import Mathlib.Tactic.GCongr
+public meta import Mathlib.Tactic.GCongr
 
 /-!
 # Basic operations on the natural numbers

@@ -6,7 +6,7 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Mathlib.Data.Set.Insert
-public import Mathlib.Tactic.ByContra
+public meta import Mathlib.Tactic.ByContra
 
 /-!
 # Subsingleton

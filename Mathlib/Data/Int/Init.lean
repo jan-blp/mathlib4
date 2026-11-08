@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Data.Int.Notation
 public import Mathlib.Data.Nat.Notation
-public import Mathlib.Tactic.DepRewrite
+public meta import Mathlib.Tactic.DepRewrite
 
 import Batteries.Logic
 

@@ -7,8 +7,8 @@ module
 
 public import Mathlib.Algebra.Group.Monoid
 public import Mathlib.Data.Int.Notation
-public import Mathlib.Tactic.CrossRefAttribute
-public import Mathlib.Tactic.OfNat
+public meta import Mathlib.Tactic.CrossRefAttribute
+public meta import Mathlib.Tactic.OfNat
 
 /-!
 # Division monoids

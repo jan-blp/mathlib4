@@ -6,6 +6,7 @@ Authors: Floris van Doorn
 
 module
 
+import Std.Data.HashSet.Basic
 public import Lean.Meta.Tactic.Grind.RegisterCommand
 
 import Mathlib.Init

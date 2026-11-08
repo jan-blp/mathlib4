@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Data.Nat.Basic
 
-import Mathlib.Tactic.Push
+meta import Mathlib.Tactic.Push
 
 /-!
 # `Nat.find` and `Nat.findGreatest`

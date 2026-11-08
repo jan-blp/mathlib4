@@ -8,7 +8,7 @@ module
 public meta import Lean.PrettyPrinter.Delaborator.Builtins
 public import Mathlib.Logic.Function.Iterate
 
-import Mathlib.Tactic.Inhabit
+meta import Mathlib.Tactic.Inhabit
 
 /-!
 # Extra facts about `Prod`

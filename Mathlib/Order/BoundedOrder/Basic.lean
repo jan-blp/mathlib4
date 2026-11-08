@@ -7,10 +7,10 @@ module
 
 public import Mathlib.Order.Max
 public import Mathlib.Order.ULift
-public import Mathlib.Tactic.ByCases
-public import Mathlib.Tactic.Finiteness.Attr
+public meta import Mathlib.Tactic.ByCases
+public meta import Mathlib.Tactic.Finiteness.Attr
 
-import Mathlib.Tactic.Basify.Attr
+meta import Mathlib.Tactic.Basify.Attr
 
 /-!
 # ⊤ and ⊥, bounded lattices and variants

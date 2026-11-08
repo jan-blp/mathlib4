@@ -5,7 +5,7 @@ Authors: Sébastien Gouëzel, Floris van Doorn, Mario Carneiro, Martin Dvorak
 -/
 module
 
-public import Mathlib.Tactic.GCongr
+public meta import Mathlib.Tactic.GCongr
 
 /-!
 # Join of a list of lists

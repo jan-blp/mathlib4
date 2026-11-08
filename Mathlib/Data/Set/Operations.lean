@@ -10,11 +10,11 @@ public import Mathlib.Basic.SProd
 public import Mathlib.Data.Set.CoeSort
 public import Mathlib.Data.Subtype
 public import Mathlib.Order.Notation
-public import Mathlib.Tactic.CrossRefAttribute
+public meta import Mathlib.Tactic.CrossRefAttribute
 
-import Aesop.BuiltinRules
-import Aesop.Frontend.Tactic
-import Aesop.Main
+meta import Aesop.BuiltinRules
+meta import Aesop.Frontend.Tactic
+meta import Aesop.Main
 
 /-!
 # Basic definitions about sets

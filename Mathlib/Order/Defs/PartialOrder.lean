@@ -5,7 +5,7 @@ Authors: Leonardo de Moura
 -/
 module
 
-public import Mathlib.Tactic.ToDual
+public meta import Mathlib.Tactic.ToDual
 
 /-!
 # Orders

@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Algebra.Group.Defs
 public import Mathlib.Logic.Function.Basic
-public import Mathlib.Tactic.Spread
+public meta import Mathlib.Tactic.Spread
 
 /-!
 # Lifting algebraic data classes along injective/surjective maps

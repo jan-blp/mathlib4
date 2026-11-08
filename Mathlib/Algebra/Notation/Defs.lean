@@ -5,8 +5,8 @@ Authors: Jeremy Avigad, Leonardo de Moura, Simon Hudon, Mario Carneiro
 -/
 module
 
-public import Mathlib.Tactic.Simps
-public import Mathlib.Tactic.ToAdditive
+public meta import Mathlib.Tactic.Simps
+public meta import Mathlib.Tactic.ToAdditive
 
 /-!
 # Typeclasses for algebraic operations

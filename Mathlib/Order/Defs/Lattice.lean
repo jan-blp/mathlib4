@@ -8,7 +8,7 @@ module
 public import Mathlib.Order.Defs.PartialOrder
 public import Mathlib.Order.Notation
 
-import Mathlib.Tactic.GRewrite
+meta import Mathlib.Tactic.GRewrite
 
 /-!
 # (Semi-)lattices

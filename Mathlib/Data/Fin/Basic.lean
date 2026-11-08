@@ -9,8 +9,8 @@ public import Batteries.Data.Fin.Basic
 public import Mathlib.Data.Int.DivMod
 public import Mathlib.Data.Nat.Init
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Attr.Core
-public import Mathlib.Tactic.Common
+public meta import Mathlib.Tactic.Attr.Core
+public meta import Mathlib.Tactic.Common
 
 /-!
 # The finite type with `n` elements

@@ -6,8 +6,8 @@ Authors: Jeremy Avigad, Leonardo de Moura, Simon Hudon, Mario Carneiro
 module
 
 public import Mathlib.Algebra.Regular.Defs
-public import Mathlib.Tactic.MkIffOfInductiveProp
-public import Mathlib.Tactic.Simps
+public meta import Mathlib.Tactic.MkIffOfInductiveProp
+public meta import Mathlib.Tactic.Simps
 
 /-!
 # Semigroups and algebraic structures without identities

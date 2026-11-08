@@ -5,9 +5,9 @@ Authors: Parikshit Khanna, Jeremy Avigad, Leonardo de Moura, Floris van Doorn, M
 -/
 module
 
-public import Mathlib.Tactic.Common
+public meta import Mathlib.Tactic.Common
 
-import Mathlib.Tactic.Attr.Core
+meta import Mathlib.Tactic.Attr.Core
 
 /-!
 # insertIdx

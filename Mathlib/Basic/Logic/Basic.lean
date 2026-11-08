@@ -6,9 +6,9 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Batteries.Logic
-public import Batteries.Util.LibraryNote
-public import Mathlib.Lean.Meta.Simp
-public import Mathlib.Tactic.Attr.Register
+public meta import Batteries.Util.LibraryNote
+public meta import Mathlib.Lean.Meta.Simp
+public meta import Mathlib.Tactic.Attr.Register
 
 /-!
 # Basic logic properties

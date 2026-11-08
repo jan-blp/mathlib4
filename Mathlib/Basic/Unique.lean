@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Basic.IsEmpty.Defs
 public import Mathlib.Logic.Function.Basic
-public import Mathlib.Tactic.Inhabit
+public meta import Mathlib.Tactic.Inhabit
 
 /-!
 # Types with a unique term

@@ -9,7 +9,7 @@ public import Mathlib.Data.List.Perm.Subperm
 public import Mathlib.Data.Nat.Basic
 public import Mathlib.Order.Monotone.Defs
 public import Mathlib.Order.RelClasses
-public import Mathlib.Tactic.Monotonicity.Attr
+public meta import Mathlib.Tactic.Monotonicity.Attr
 
 /-!
 # Multisets

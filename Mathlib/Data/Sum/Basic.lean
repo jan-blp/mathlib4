@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Logic.Function.Basic
 
-import Mathlib.Tactic.MkIffOfInductiveProp
+meta import Mathlib.Tactic.MkIffOfInductiveProp
 
 /-!
 # Additional lemmas about sum types

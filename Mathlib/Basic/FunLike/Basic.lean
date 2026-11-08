@@ -7,8 +7,8 @@ module
 
 public meta import Lean.Meta.CoeAttr
 public import Mathlib.Basic.Unique
-public import Mathlib.Tactic.Simps
-public import Mathlib.Tactic.SplitIfs
+public meta import Mathlib.Tactic.Simps
+public meta import Mathlib.Tactic.SplitIfs
 
 /-!
 # Typeclass for a type `F` with an injective map to `A → B`

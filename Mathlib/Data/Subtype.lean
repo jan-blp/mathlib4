@@ -6,9 +6,9 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Logic.Function.Basic
-public import Mathlib.Tactic.Simps
+public meta import Mathlib.Tactic.Simps
 
-import Mathlib.Tactic.AdaptationNote
+meta import Mathlib.Tactic.AdaptationNote
 
 /-!
 # Subtypes

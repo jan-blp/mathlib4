@@ -8,7 +8,7 @@ module
 public import Mathlib.Algebra.Group.Basic
 public import Mathlib.Algebra.Group.Int.Defs
 public import Mathlib.Algebra.Group.Nat.Units
-public import Mathlib.Tactic.Tauto
+public meta import Mathlib.Tactic.Tauto
 
 /-!
 # Units in the integers

@@ -11,9 +11,9 @@ public import Mathlib.Order.Compare
 public import Mathlib.Order.Max
 public import Mathlib.Order.Monotone.Defs
 public import Mathlib.Order.RelClasses
-public import Mathlib.Tactic.ByCases
-public import Mathlib.Tactic.Choose
-public import Mathlib.Tactic.Contrapose
+public meta import Mathlib.Tactic.ByCases
+public meta import Mathlib.Tactic.Choose
+public meta import Mathlib.Tactic.Contrapose
 
 /-!
 # Monotonicity

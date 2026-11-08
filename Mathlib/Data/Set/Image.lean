@@ -5,7 +5,7 @@ Authors: Jeremy Avigad, Leonardo de Moura
 -/
 module
 
-public import Batteries.Tactic.Congr
+public meta import Batteries.Tactic.Congr
 public import Mathlib.Data.Prod.Basic
 public import Mathlib.Data.Set.Inclusion
 public import Mathlib.Data.Set.Subsingleton

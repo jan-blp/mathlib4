@@ -8,9 +8,9 @@ module
 public import Mathlib.Logic.Relator
 public import Mathlib.Order.Defs.Prop
 public import Mathlib.Order.Defs.Unbundled
-public import Mathlib.Tactic.MkIffOfInductiveProp
-public import Mathlib.Tactic.SimpRw
-public import Mathlib.Tactic.Use
+public meta import Mathlib.Tactic.MkIffOfInductiveProp
+public meta import Mathlib.Tactic.SimpRw
+public meta import Mathlib.Tactic.Use
 
 import Batteries.Logic
 

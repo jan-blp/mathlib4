@@ -5,7 +5,7 @@ Authors: Sébastien Gouëzel
 -/
 module
 
-public import Mathlib.Tactic.Push.Attr
+public meta import Mathlib.Tactic.Push.Attr
 
 /-!
 # Nontrivial types

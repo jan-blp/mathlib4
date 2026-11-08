@@ -6,7 +6,7 @@ Authors: Jeremy Avigad, Leonardo de Moura
 module
 
 public import Mathlib.Order.PropInstances
-public import Mathlib.Tactic.Lift
+public meta import Mathlib.Tactic.Lift
 
 /-!
 # Basic properties of sets

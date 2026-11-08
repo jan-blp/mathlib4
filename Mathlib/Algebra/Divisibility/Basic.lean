@@ -7,10 +7,10 @@ Neil Strickland, Aaron Anderson, Re'em Melamed-Katz
 module
 
 public import Mathlib.Algebra.Group.Opposite
-public import Mathlib.Tactic.Attr.Core
-public import Mathlib.Tactic.Common
+public meta import Mathlib.Tactic.Attr.Core
+public meta import Mathlib.Tactic.Common
 
-import Batteries.Tactic.SeqFocus
+meta import Batteries.Tactic.SeqFocus
 
 /-!
 # Divisibility

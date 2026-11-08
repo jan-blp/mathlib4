@@ -6,7 +6,7 @@ Authors: Leonardo de Moura
 module
 
 public import Mathlib.Data.Set.Defs
-public import Mathlib.Tactic.ExtendDoc
+public meta import Mathlib.Tactic.ExtendDoc
 
 
 /-!

@@ -11,7 +11,7 @@ public import Mathlib.Order.Defs.Lattice
 public import Mathlib.Order.Monotone.Basic
 public import Mathlib.Order.ULift
 
-import Mathlib.Tactic.GRewrite
+meta import Mathlib.Tactic.GRewrite
 
 /-!
 # Basic properties of lattices

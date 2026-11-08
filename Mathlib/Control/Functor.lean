@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Data.Set.Defs
 
-import Mathlib.Tactic.Attr.Register
+meta import Mathlib.Tactic.Attr.Register
 
 /-!
 # Functors

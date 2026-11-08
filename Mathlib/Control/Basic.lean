@@ -6,10 +6,10 @@ Authors: Johannes Hölzl
 module
 
 public import Mathlib.Control.Combinators
-public import Mathlib.Tactic.Attr.Core
-public import Mathlib.Tactic.CasesM
+public meta import Mathlib.Tactic.Attr.Core
+public meta import Mathlib.Tactic.CasesM
 
-import Mathlib.Tactic.Attr.Register
+meta import Mathlib.Tactic.Attr.Register
 
 /-!
 # Basic control operations

@@ -5,9 +5,9 @@ Authors: Leonardo de Moura
 -/
 module
 
-public import Batteries.Util.ExtendedBinder
-public import Mathlib.Tactic.SetNotationForOrder
-public import Mathlib.Tactic.ToDual
+public meta import Batteries.Util.ExtendedBinder
+public meta import Mathlib.Tactic.SetNotationForOrder
+public meta import Mathlib.Tactic.ToDual
 
 /-!
 # Sets

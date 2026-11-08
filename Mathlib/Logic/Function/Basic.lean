@@ -5,7 +5,7 @@ Authors: Johannes Hölzl, Mario Carneiro
 -/
 module
 
-public import Batteries.Tactic.Init
+public meta import Batteries.Tactic.Init
 public import Mathlib.Basic.ExistsUnique
 public import Mathlib.Basic.Logic.Basic
 public import Mathlib.Basic.Nonempty

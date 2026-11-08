@@ -8,7 +8,7 @@ module
 public import Mathlib.Order.Defs.PartialOrder
 
 import Mathlib.Basic.Logic.Basic
-import Mathlib.Tactic.Basify.Attr
+meta import Mathlib.Tactic.Basify.Attr
 
 /-!
 # `NeZero` typeclass

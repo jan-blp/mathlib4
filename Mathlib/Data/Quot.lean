@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Basic.Unique
 public import Mathlib.Logic.Relation
-public import Mathlib.Util.Notation3
+public meta import Mathlib.Util.Notation3
 
 /-!
 # Quotient types

@@ -7,7 +7,7 @@ module
 
 public import Mathlib.Init
 
-import Mathlib.Tactic.Attr.Register
+meta import Mathlib.Tactic.Attr.Register
 
 /-!
 # General operations on functions

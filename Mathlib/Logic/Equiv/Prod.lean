@@ -6,7 +6,7 @@ Authors: Leonardo de Moura, Mario Carneiro
 module
 
 public import Mathlib.Logic.Equiv.Defs
-public import Mathlib.Tactic.Contrapose
+public meta import Mathlib.Tactic.Contrapose
 public import Mathlib.Util.CompileInductive
 
 /-!
